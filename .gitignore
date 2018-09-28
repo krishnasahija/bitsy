@@ -1,0 +1,46 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# don't add any bin directories
+bin/
+
+# toolkit files
+.metadata/
+
+# java compile files
+*.class
+
+# Log file
+*.log
+
+# Bar files
+*.bar
+
+# git Stackdump
+*.exe.stackdump
+
+# gitEye
+/.project
+
+# heapdump
+core.*
+heapdump.*
+Snap.*
+javacore.*
+
+# ant build back files
+*.bak
+*_backup
+
+# ant build generated files
+generated/
+FileContainsZeroByteXml.zip
+
+# ansible retry
+*.retry
+
+# VS code stuff
+.vscode/settings.json
+
+# pyc files
+*.pyc
+
